@@ -1,0 +1,106 @@
+{
+  "followers": [
+    {
+      "id": 1,
+      "socialNetwork": "facebook",
+      "socialHandle": "@nathanf",
+      "gradient": "blue",
+      "totalFollowers": 1987,
+      "todaysFollowers": 12,
+      "todaysFollowersOrder": "ASC"
+    },
+    {
+      "id": 2,
+      "socialNetwork": "twitter",
+      "socialHandle": "@nathanf",
+      "gradient": "blue",
+      "totalFollowers": 1044,
+      "todaysFollowers": 99,
+      "todaysFollowersOrder": "ASC"
+    },
+    {
+      "id": 3,
+      "socialNetwork": "instagram",
+      "socialHandle": "@realnathanf",
+      "gradient": "blue",
+      "totalFollowers": "11k",
+      "todaysFollowers": 1099,
+      "todaysFollowersOrder": "ASC"
+    },
+    {
+      "id": 4,
+      "socialNetwork": "youtube",
+      "socialHandle": "Nathan F.",
+      "gradient": "red",
+      "totalFollowers": 8239,
+      "todaysFollowers": 144,
+      "todaysFollowersOrder": "DESC"
+    }
+  ],
+  "todaysFollowers": [
+    {
+      "id": 1,
+      "title": "Page Views",
+      "socialNetwork": "facebook",
+      "value": 87,
+      "percentage": 3,
+      "percentageOrder": "ASC"
+    },
+    {
+      "id": 2,
+      "title": "Likes",
+      "socialNetwork": "facebook",
+      "value": 52,
+      "percentage": 2,
+      "percentageOrder": "DESC"
+    },
+    {
+      "id": 3,
+      "title": "Likes",
+      "socialNetwork": "instagram",
+      "value": 5462,
+      "percentage": 2257,
+      "percentageOrder": "ASC"
+    },
+    {
+      "id": 4,
+      "title": "Profile Views",
+      "socialNetwork": "instagram",
+      "value": "52k",
+      "percentage": 1375,
+      "percentageOrder": "ASC"
+    },
+    {
+      "id": 5,
+      "title": "Retweets",
+      "socialNetwork": "twitter",
+      "value": 117,
+      "percentage": 303,
+      "percentageOrder": "ASC"
+    },
+    {
+      "id": 6,
+      "title": "Likes",
+      "socialNetwork": "twitter",
+      "value": 507,
+      "percentage": 553,
+      "percentageOrder": "ASC"
+    },
+    {
+      "id": 7,
+      "title": "Likes",
+      "socialNetwork": "youtube",
+      "value": 107,
+      "percentage": 19,
+      "percentageOrder": "DESC"
+    },
+    {
+      "id": 8,
+      "title": "Total Views",
+      "socialNetwork": "youtube",
+      "value": 1407,
+      "percentage": 12,
+      "percentageOrder": "DESC"
+    }
+  ]
+}

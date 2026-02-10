@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Frontend Mentor | Social Media Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <div class="heading-container">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <div class="dark-mode-container">
+        <p>Dark Mode</p>
+        <div class="checkbox-container">
+          <div class="checkbox-slider"></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="widgets-container">
+        <template class="widgets-template">
+          <div class="widget-container">
+            <div class="widget-type">
+              <img
+                class="social-icon"
+                src="/images/icon-facebook.svg"
+                alt="Facebook Icon"
+              />
+              <div class="social-handle">@nathanf</div>
+            </div>
+            <div class="widget-followers-container">
+              <div class="followers-number">1987</div>
+              <div class="followers-text">Followers</div>
+            </div>
+            <div class="followers-today">
+              <img
+                class="todays-followers-order"
+                src="/images/icon-up.svg"
+                alt="Up"
+              />
+              <div class="todays-followers">12</div>
+              <div class="todays">Today</div>
+            </div>
+          </div>
+        </template>
+      </section>
+      <section class="overview-container">
+        <h2>Overview - Today</h2>
+        <template class="overview-template">
+          <div class="overview-widget">
+            <div class="overview-widget-left-content">
+              <div class="overview-widget-left-content-text">Page Views</div>
+              <div class="overview-widget-left-content-number">87</div>
+            </div>
+            <div class="overview-widget-right-content">
+              <div class="icon-image-container">
+                <img
+                  class="social-icon"
+                  src="/images/icon-facebook.svg"
+                  alt="Facebook Icon"
+                />
+              </div>
+              <div class="overview-widget-right-content-percentage">
+                <img
+                  class="todays-followers-order"
+                  src="/images/icon-up.svg"
+                  alt="Up"
+                />
+                <div class="overview-percentage">3%</div>
+              </div>
+            </div>
+          </div>
+        </template>
+      </section>
+    </main>
+  </body>
+  <script src="/js/widgets.js"></script>
+  <script src="/js/overview-widgets.js"></script>
+  <script src="/js/dark-mode.js"></script>
+</html>
