@@ -32,7 +32,7 @@ function createWidget(widget) {
     `${widget.gradient}`;
 
   clone.querySelector('.social-icon').src =
-    `/images/icon-${widget.socialNetwork}.svg`;
+    `images/icon-${widget.socialNetwork}.svg`;
 
   clone.querySelector('.social-handle').innerText = widget.socialHandle;
 
@@ -41,12 +41,11 @@ function createWidget(widget) {
   clone.querySelector('.todays-followers').innerText = widget.todaysFollowers;
 
   if (widget.todaysFollowersOrder === 'ASC') {
-    clone.querySelector('.todays-followers-order').src = `/images/icon-up.svg`;
+    clone.querySelector('.todays-followers-order').src = `images/icon-up.svg`;
     clone.querySelector('.todays-followers').style.color = 'hsl(163, 72%, 41%)';
     clone.querySelector('.todays').style.color = 'hsl(163, 72%, 41%)';
   } else {
-    clone.querySelector('.todays-followers-order').src =
-      `/images/icon-down.svg`;
+    clone.querySelector('.todays-followers-order').src = `images/icon-down.svg`;
     clone.querySelector('.todays-followers').style.color = 'hsl(356, 69%, 56%)';
     clone.querySelector('.todays').style.color = 'hsl(356, 69%, 56%)';
   }

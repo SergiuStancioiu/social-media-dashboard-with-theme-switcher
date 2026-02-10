@@ -28,7 +28,7 @@ function createOverViewWidgets(widget) {
   const clone = overviewTemplate.content.cloneNode(true);
 
   clone.querySelector('.social-icon').src =
-    `/images/icon-${widget.socialNetwork}.svg`;
+    `images/icon-${widget.socialNetwork}.svg`;
 
   clone.querySelector('.overview-widget-left-content-text').innerText =
     widget.title;
@@ -40,12 +40,11 @@ function createOverViewWidgets(widget) {
     `${widget.percentage}%`;
 
   if (widget.percentageOrder === 'ASC') {
-    clone.querySelector('.todays-followers-order').src = `/images/icon-up.svg`;
+    clone.querySelector('.todays-followers-order').src = `images/icon-up.svg`;
     clone.querySelector('.overview-percentage').style.color =
       'hsl(163, 72%, 41%)';
   } else {
-    clone.querySelector('.todays-followers-order').src =
-      `/images/icon-down.svg`;
+    clone.querySelector('.todays-followers-order').src = `images/icon-down.svg`;
     clone.querySelector('.overview-percentage').style.color =
       'hsl(356, 69%, 56%)';
   }
