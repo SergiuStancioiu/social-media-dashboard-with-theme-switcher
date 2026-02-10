@@ -30,7 +30,8 @@ function createWidget(widget) {
 
   clone.querySelector('.widget-container').style.borderColor =
     `${widget.gradient}`;
-
+  clone.querySelector('.widget-gradient').style.background =
+    `${widget.gradient}`;
   clone.querySelector('.social-icon').src =
     `images/icon-${widget.socialNetwork}.svg`;
 
