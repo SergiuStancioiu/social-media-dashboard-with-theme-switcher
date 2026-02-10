@@ -12,7 +12,7 @@ async function getData() {
     const todaysFollowers = result.todaysFollowers;
 
     for (let todaysFollower of todaysFollowers) {
-      createOverViewWidgets(todaysFollower);
+      createOverViewWidget(todaysFollower);
     }
   } catch (error) {
     console.error(error.message);
@@ -21,7 +21,7 @@ async function getData() {
 
 getData();
 
-function createOverViewWidgets(widget) {
+function createOverViewWidget(widget) {
   const overviewContainer = document.querySelector('.overview-container');
   const overviewTemplate = document.querySelector('.overview-template');
 
