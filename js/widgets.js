@@ -11,8 +11,6 @@ async function getData() {
 
     const followers = result.followers;
 
-    console.log('followers', followers);
-
     for (let follower of followers) {
       createWidget(follower);
     }
