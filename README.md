@@ -21,4 +21,7 @@ Thanks for checking out this front-end coding challenge.
 - [How to add something into a div element](https://stackoverflow.com/questions/47358481/how-to-add-something-into-a-div-element)
 
 - [Check if an element contains a class in JavaScript?](https://stackoverflow.com/questions/5898656/check-if-an-element-contains-a-class-in-javascript)
+
+- [translate()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/transform-function/translate)
+
 # social-media-dashboard-with-theme-switcher
