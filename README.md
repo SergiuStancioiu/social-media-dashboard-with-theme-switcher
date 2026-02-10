@@ -32,4 +32,4 @@ Thanks for checking out this front-end coding challenge.
 
 ## Day 2
 
-- I created a new repository, uploaded all the code to GitHub, deployed it using GitHub Pages, fixed the paths for the CSS, scripts, and images, added animations to the checkbox and linear gradient, and made changes to the HTML to enable a linear gradient on the top cards. (1.5 hours)
+- I created a new repository, uploaded all the code to GitHub, deployed it using GitHub Pages, fixed the paths for the CSS, scripts, and images, added animations to the checkbox and linear gradient, and made changes to the HTML to enable a linear gradient on the top cards and completed dark-mode styles . (2 hours)
