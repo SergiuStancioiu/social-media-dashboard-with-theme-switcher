@@ -123,7 +123,7 @@ p {
 
 .widget-container:hover,
 .overview-widget:hover {
-  background-color: hsl(227deg 19.71% 89.62%);
+  background-color: #e1e3f0;
 }
 
 .widget-content {
@@ -236,4 +236,9 @@ p {
 .dark-mode-active .followers-text,
 .dark-mode-active .overview-widget-left-content-text {
   color: var(--gray-400-text);
+}
+
+.dark-mode-active .widget-container:hover,
+.dark-mode-active .overview-widget:hover {
+  background-color: #333a56;
 }
