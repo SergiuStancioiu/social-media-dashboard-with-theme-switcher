@@ -24,6 +24,8 @@ Thanks for checking out this front-end coding challenge.
 
 - [translate()](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/transform-function/translate)
 
+- [grid-column](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-column)
+
 # social-media-dashboard-with-theme-switcher
 
 ## Day 1
@@ -33,3 +35,7 @@ Thanks for checking out this front-end coding challenge.
 ## Day 2
 
 - I created a new repository, uploaded all the code to GitHub, deployed it using GitHub Pages, fixed the paths for the CSS, scripts, and images, added animations to the checkbox and linear gradient, and made changes to the HTML to enable a linear gradient on the top cards and completed dark-mode styles . (2 hours)
+
+## Day 3
+
+- I improved mobile, tablet, and desktop responsiveness by adding custom media breakpoints at 567px, 768px, and 992px, fixed hover color styles, and added the missing follower title to the top cards.(30 minutes)
