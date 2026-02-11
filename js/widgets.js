@@ -37,6 +37,8 @@ function createWidget(widget) {
 
   clone.querySelector('.social-handle').innerText = widget.socialHandle;
 
+  clone.querySelector('.followers-text').innerText = widget.title;
+
   clone.querySelector('.followers-number').innerText = widget.totalFollowers;
 
   clone.querySelector('.todays-followers').innerText = widget.todaysFollowers;
