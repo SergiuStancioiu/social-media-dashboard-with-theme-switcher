@@ -42,4 +42,4 @@ Thanks for checking out this front-end coding challenge.
 
 ## Day 4
 
--I improved the mobile, tablet, and desktop responsiveness for the overview cards and made some minor fixes to the spacing and checkbox states to match the design.(30 minutes)
+- I improved the mobile, tablet, and desktop responsiveness for the overview cards and made some minor fixes to the spacing and checkbox states to match the design.(30 minutes)
