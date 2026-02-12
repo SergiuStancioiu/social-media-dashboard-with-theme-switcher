@@ -39,3 +39,7 @@ Thanks for checking out this front-end coding challenge.
 ## Day 3
 
 - I improved mobile, tablet, and desktop responsiveness by adding custom media breakpoints at 567px, 768px, and 992px, fixed hover color styles, and added the missing follower title to the top cards.(30 minutes)
+
+## Day 4
+
+-I improved the mobile, tablet, and desktop responsiveness for the overview cards and made some minor fixes to the spacing and checkbox states to match the design.(30 minutes)
