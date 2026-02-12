@@ -46,13 +46,13 @@ function createWidget(widget) {
   if (widget.todaysFollowersOrder === 'ASC') {
     clone.querySelector('.todays-followers-order').src = `images/icon-up.svg`;
     clone.querySelector('.todays-followers-order').alt = 'Up Icon';
-    clone.querySelector('.todays-followers').style.color = 'hsl(163, 72%, 41%)';
-    clone.querySelector('.todays').style.color = 'hsl(163, 72%, 41%)';
+    clone.querySelector('.todays-followers').classList.add('green');
+    clone.querySelector('.todays').classList.add('green');
   } else {
     clone.querySelector('.todays-followers-order').src = `images/icon-down.svg`;
     clone.querySelector('.todays-followers-order').alt = 'Down Icon';
-    clone.querySelector('.todays-followers').style.color = 'hsl(356, 69%, 56%)';
-    clone.querySelector('.todays').style.color = 'hsl(356, 69%, 56%)';
+    clone.querySelector('.todays-followers').classList.add('red');
+    clone.querySelector('.todays').classList.add('red');
   }
 
   widgetsContainer.appendChild(clone);

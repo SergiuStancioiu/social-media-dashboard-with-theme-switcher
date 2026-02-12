@@ -226,6 +226,13 @@ p {
   border-top-right-radius: 5px;
 }
 
+.green {
+  color: var(--green-500);
+}
+
+.red {
+  color: var(--red-500);
+}
 /* Dark Mode */
 .dark-mode-active {
   background-color: var(--gray-950-bg);

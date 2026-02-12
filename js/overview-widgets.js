@@ -42,13 +42,11 @@ function createOverViewWidget(widget) {
   if (widget.percentageOrder === 'ASC') {
     clone.querySelector('.todays-followers-order').src = `images/icon-up.svg`;
     clone.querySelector('.todays-followers-order').alt = 'Up Icon';
-    clone.querySelector('.overview-percentage').style.color =
-      'hsl(163, 72%, 41%)';
+    clone.querySelector('.overview-percentage').classList.add('green');
   } else {
     clone.querySelector('.todays-followers-order').src = `images/icon-down.svg`;
     clone.querySelector('.todays-followers-order').alt = 'Down Icon';
-    clone.querySelector('.overview-percentage').style.color =
-      'hsl(356, 69%, 56%)';
+    clone.querySelector('.overview-percentage').classList.add('red');
   }
 
   overviewContainer.appendChild(clone);
